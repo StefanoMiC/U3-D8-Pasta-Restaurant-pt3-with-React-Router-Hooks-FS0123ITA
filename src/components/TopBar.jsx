@@ -4,8 +4,6 @@
 
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
-// Link genera un tag <a /> speciale, che grazie alla prop "to" redireziona
-// l'utente alla rotta desiderata senza far ri-aggiornare il browser
 
 const TopBar = props => {
   const location = useLocation();
